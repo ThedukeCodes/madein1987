@@ -1,0 +1,96 @@
+/*
+ * Start Bootstrap - Full (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+
+ /*.full {
+     background: url('../images/vibe.jpg'), no-repeat center center fixed ;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     background-size: cover;
+     -o-background-size: cover;
+     overflow:hidden;
+     height: 100%;
+     position: relative;
+ }*/
+
+html, body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.layer {
+
+    position: absolute;
+    /*background-color:transparent;*/
+    transition: translate-y(-50%);
+    top: 50%;
+    margin: auto;
+    left: 0;
+    right:0;
+    z-index: 22;
+    font-family: 'Parisienne', cursive;
+    font-size:24px;
+    color: black;
+}
+p{
+    font-weight: bold;
+}
+
+
+
+.parallax {
+  padding: 20px;
+  background-color: rgba(248, 247, 216, 0.7);
+
+  /* Set a specific height */
+  height: 400px;
+  width: 300px;
+
+/* Create the parallax scrolling effect*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 150%;
+  height: 150%;
+}
+#bg.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 100%;
+  min-height: 100%;
+  
+}
+
+
+#button {
+    margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background: black;
+    font-family: 'Parisienne', cursive;
+    font-size:24px;
+    color: white;
+    }
+
+
+@media (min-width:801px)  { 
+
+#audio1 {
+display:none;
+        } 
+      }
+
+
